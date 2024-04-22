@@ -18,19 +18,27 @@ h1 {
     margin-bottom: 60px;
 }
 
-#gameboard {
-    width: 480px;
-    height: 480px;
-    display: flex;
-    flex-wrap: wrap;
+#area {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    font-size: 0;
 }
 
-.square {
-    width: 40px;
-    height: 40px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+.cell {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    border: 1px solid #000;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+}
+
+.cell:hover {
+    background-color: #F1F1F1;
 }
