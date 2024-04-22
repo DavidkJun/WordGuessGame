@@ -1,5 +1,4 @@
 const area = document.getElementById('area');
-const cell = document.getElementsByClassName('cell');
 
 const gamewidth = 5;
 const gameHeigth = 6;
@@ -15,3 +14,5 @@ function createGameBoard() {
 }
 
 createGameBoard()
+
+const cells = document.getElementsByClassName('cell');
