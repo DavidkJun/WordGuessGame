@@ -16,3 +16,8 @@ function createGameBoard() {
 createGameBoard()
 
 const cells = document.getElementsByClassName('cell');
+
+for(const cell of cells){
+    cell.addEventListener("keydown", letterType)
+}
+
