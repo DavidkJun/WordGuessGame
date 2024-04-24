@@ -42,3 +42,131 @@ h1 {
 .cell:hover {
     background-color: #F1F1F1;
 }
+.cell-a {
+    color: blue;
+}
+
+/* Клас для букви B */
+.cell-b {
+    color: red;
+}
+
+/* Клас для букви C */
+.cell-c {
+    color: green;
+}
+
+/* Клас для букви D */
+.cell-d {
+    color: yellow;
+}
+
+/* Клас для букви E */
+.cell-e {
+    color: orange;
+}
+
+/* Клас для букви F */
+.cell-f {
+    color: purple;
+}
+
+/* Клас для букви G */
+.cell-g {
+    color: pink;
+}
+
+/* Клас для букви H */
+.cell-h {
+    color: brown;
+}
+
+/* Клас для букви I */
+.cell-i {
+    color: teal;
+}
+
+/* Клас для букви J */
+.cell-j {
+    color: cyan;
+}
+
+/* Клас для букви K */
+.cell-k {
+    color: magenta;
+}
+
+/* Клас для букви L */
+.cell-l {
+    color: olive;
+}
+
+/* Клас для букви M */
+.cell-m {
+    color: navy;
+}
+
+/* Клас для букви N */
+.cell-n {
+    color: lime;
+}
+
+/* Клас для букви O */
+.cell-o {
+    color: maroon;
+}
+
+/* Клас для букви P */
+.cell-p {
+    color: black;
+}
+
+/* Клас для букви Q */
+.cell-q {
+    color: silver;
+}
+
+/* Клас для букви R */
+.cell-r {
+    color: gold;
+}
+
+/* Клас для букви S */
+.cell-s {
+    color: indigo;
+}
+
+/* Клас для букви T */
+.cell-t {
+    color: coral;
+}
+
+/* Клас для букви U */
+.cell-u {
+    color: salmon;
+}
+
+/* Клас для букви V */
+.cell-v {
+    color: violet;
+}
+
+/* Клас для букви W */
+.cell-w {
+    color: chocolate;
+}
+
+/* Клас для букви X */
+.cell-x {
+    color: darkblue;
+}
+
+/* Клас для букви Y */
+.cell-y {
+    color: darkcyan;
+}
+
+/* Клас для букви Z */
+.cell-z {
+    color: darkgoldenrod;
+}
