@@ -5,8 +5,8 @@ const gameHeigth = 6;
 
 function createGameBoard() {
     let cellIndex = 1;
-    for (let row = 0; row < 6; row++) {
-        for (let col = 0; col < 5; col++) {
+    for (let row = 0; row < gamewidth; row++) {
+        for (let col = 0; col < gamewidth; col++) {
             area.innerHTML += "<div class='cell' pos=" + cellIndex + "></div>";
             cellIndex++;
         }
