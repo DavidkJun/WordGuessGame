@@ -5,7 +5,7 @@ const gameHeigth = 6;
 
 function createGameBoard() {
     let cellIndex = 1;
-    for (let row = 0; row < gamewidth; row++) {
+    for (let row = 0; row < gameHeigth; row++) {
         for (let col = 0; col < gamewidth; col++) {
             area.innerHTML += "<div class='cell' pos=" + cellIndex + "></div>";
             cellIndex++;
@@ -20,4 +20,8 @@ const cells = document.getElementsByClassName('cell');
 for(const cell of cells){
     cell.addEventListener("keydown", letterType)
 }
+function letterType(event) {
+    const letter = event.key.toUpperCase();
+    event.target.innerText = letter;
 
+}
