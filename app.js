@@ -21,6 +21,8 @@ for (const cell of cells) {
 }
 
 function letterType(event) {
-    const letter = event.key.toUpperCase();
-    event.target.innerText = letter;
+    const key = event.key.toUpperCase();
+    if (key.length === 1 && key.match(/[A-Z]/i)) { // Перевірка чи введено букву
+        event.target.innerText = key;
+    }
 }
