@@ -3,12 +3,12 @@ const gameWidth = 5;
 const gameHeight = 6;
 
 const wordGuesses = {
-    firstTry: [],
-    secondTry: [],
-    thirdTry: [],
-    fourthTry: [],
-    fifthTry: [],
-    sixthTry: []
+    1: [],
+    2: [],
+    3: [],
+    4: [],
+    5: [],
+    6: []
 }
 
 function createGameBoard() {
