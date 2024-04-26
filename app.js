@@ -2,6 +2,15 @@ const area = document.getElementById('area');
 const gameWidth = 5;
 const gameHeight = 6;
 
+const wordGuesses = {
+    firstTry: [],
+    secondTry: [],
+    thirdTry: [],
+    fourthTry: [],
+    fifthTry: [],
+    sixthTry: []
+}
+
 function createGameBoard() {
     let cellIndex = 1;
     for (let row = 0; row < gameHeight; row++) {
@@ -26,4 +35,3 @@ function letterType(event) {
         event.target.innerText = key;
     }
 }
-
