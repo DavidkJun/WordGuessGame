@@ -30,8 +30,13 @@ for (const cell of cells) {
 }
 console.log(wordGuesses)
 function letterType(event) {
-    const key = event.key.toUpperCase();
-    if (key.length === 1 && key.match(/[A-Z]/i)) { // Перевірка чи введено букву
-        event.target.innerText = key;
+    for (let i = 1; i <= rows; i++) {
+        for (let j = 1; j <= collums; j++) {
+            const key = event.key.toUpperCase();
+            if (key.length === 1 && key.match(/[A-Z]/i)) { // Перевірка чи введено букву
+                wordGuesses[i].push(key.toString())
+                event.target.innerText = key;
+            }
+        }
     }
 }
