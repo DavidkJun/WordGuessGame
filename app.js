@@ -1,11 +1,11 @@
 const area = document.getElementById('area');
-const gamewidth = 5;
+const gameWidth = 5;
 const gameHeight = 6;
 
 function createGameBoard() {
     let cellIndex = 1;
     for (let row = 0; row < gameHeight; row++) {
-        for (let col = 0; col < gamewidth; col++) {
+        for (let col = 0; col < gameWidth; col++) {
             area.innerHTML += "<div class='cell' id='cell_" + cellIndex + "' contenteditable='true'></div>";
             cellIndex++;
         }
@@ -26,3 +26,4 @@ function letterType(event) {
         event.target.innerText = key;
     }
 }
+
