@@ -33,7 +33,7 @@ function letterType(event) {
     for (let i = 1; i <= rows; i++) {
         for (let j = 1; j <= collums; j++) {
             const key = event.key.toUpperCase();
-            if (key.length === 1 && key.match(/[A-Z]/i)) { // Перевірка чи введено букву
+            if (key.length === 1 && key.match(/[A-Z]/i)) {
                 wordGuesses[i].push(key.toString())
                 event.target.innerText = key;
             }
