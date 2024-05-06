@@ -40,3 +40,4 @@ function letterType(event) {
         }
     }
 }
+s
