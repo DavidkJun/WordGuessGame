@@ -43,3 +43,18 @@ h1 {
     background-color: #F1F1F1;
 }
 
+.cell.correct {
+    background-color: green;
+    color: white;
+}
+
+.cell.partial {
+    background-color: yellow;
+    color: black;
+}
+
+/* Optional: Highlight the cell when it is being typed in */
+.cell:focus {
+    outline: none;
+    border-color: #666;
+}
