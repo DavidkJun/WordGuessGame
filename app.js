@@ -46,6 +46,7 @@ function letterType(event) {
         curRow++
     }
 }
+
 function checkLetters(obj,curRow) {
    for(let i = 0;i < collums;i++) {
        if(obj[curRow][i] === keyWord[i]) {
