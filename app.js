@@ -2,6 +2,10 @@ const area = document.getElementById('area');
 const collums = 5;
 const rows = 6;
 
+let curRow = 0;
+
+let keyWord = ["P","H","O","N","E"];
+
 const wordGuesses = {
     1: [],
     2: [],
@@ -38,6 +42,19 @@ function letterType(event) {
                 event.target.innerText = key;
             }
         }
+        checkLetters(wordGuesses);
+        curRow++
     }
 }
-s
+
+function checkLetters(obj,curRow) {
+   for(let i = 0;i < collums;i++) {
+       if(obj[curRow][i] === keyWord[i]) {
+           cell.classList.add('correct');
+       }else {
+           if(keyWord.includes(obj[curRow][i])) {
+               cell.classList.add('partial');
+           }
+       }
+   }
+}
