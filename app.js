@@ -46,10 +46,10 @@ function letterType(event) {
 function checkLetters(obj,curRow) {
    for(let i = 0;i < collums;i++) {
        if(obj[curRow][i] === keyWord[i]) {
-           //add green color to a cell because it maches the letter and the positioning
+           cell.classList.add('correct');
        }else {
            if(keyWord.includes(obj[curRow][i])) {
-               //add yellow class to a cell becouse a guess only maches the leter but not the posittion
+               cell.classList.add('partial');
            }
        }
    }
