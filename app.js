@@ -1,8 +1,11 @@
 const area = document.getElementById('area');
 const collums = 5;
 const rows = 6;
+
 let curRow = 0;
+
 let keyWord = ["P","H","O","N","E"];
+
 const wordGuesses = {
     1: [],
     2: [],
